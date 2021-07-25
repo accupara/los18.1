@@ -29,7 +29,6 @@
   <remove-project name="LineageOS/android_lineage-sdk" />
   <project name="LineageOS-Revived/android_lineage-sdk" path="lineage-sdk" />
 
-
   <remove-project name="LineageOS/android_packages_apps_Gallery2" />
   <project name="LineageOS-Revived/android_packages_apps_Gallery2" path="packages/apps/Gallery2" />
   <remove-project name="LineageOS/android_packages_apps_Settings" />
@@ -41,6 +40,9 @@
 
   <remove-project name="LineageOS/android_packages_inputmethods_LatinIME" />
   <project name="LineageOS-Revived/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" />
+
+  <remove-project name="platform/packages/modules/NetworkStack" />
+  <project name="lin18-microG/android_packages_modules_NetworkStack" path="packages/modules/NetworkStack" />
 
   <remove-project name="LineageOS/android_packages_providers_MediaProvider" />
   <project name="lin18-microG/android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" />
