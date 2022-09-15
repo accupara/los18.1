@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remove-project name="LineageOS/android" />
+  <remove-project name="LineageOS/android_bionic" />
+  <remove-project name="LineageOS/android_external_aac" />
+  <remove-project name="LineageOS/android_external_boringssl" />
+  <remove-project name="LineageOS/android_external_icu" />
+  <remove-project name="LineageOS/android_external_flac" />
+  <remove-project name="LineageOS/android_external_freetype" />
+  <remove-project name="LineageOS/android_external_libavc" />
+  <remove-project name="LineageOS/android_external_libexif" />
+  <remove-project name="LineageOS/android_external_libnfc-nci" />
+  <remove-project name="LineageOS/android_external_libvpx" />
+  <remove-project name="LineageOS/android_external_libxml2" />
+  <remove-project name="LineageOS/android_external_sonivox" />
+  <remove-project name="LineageOS/android_external_tremolo" />
+  <remove-project name="LineageOS/android_external_zlib" />
+  <remove-project name="LineageOS/android_frameworks_av" />
+  <remove-project name="LineageOS/android_frameworks_minikin" />
+  <remove-project name="LineageOS/android_packages_apps_Bluetooth" />
+  <remove-project name="LineageOS/android_packages_apps_KeyChain" />
+  <remove-project name="LineageOS/android_packages_apps_Nfc" />
+  <remove-project name="LineageOS/android_packages_apps_TvSettings" />
+  <remove-project name="LineageOS/android_packages_providers_ContactsProvider" />
+  <remove-project name="LineageOS/android_packages_providers_MediaProvider" />
+  <remove-project name="LineageOS/android_packages_providers_TelephonyProvider" />
+  <remove-project name="LineageOS/android_packages_services_Telecomm" />
+  <remove-project name="LineageOS/android_packages_services_Telephony" />
+  <remove-project name="LineageOS/android_system_bt" />
+
+  <remove-project name="platform/external/expat" />
+  <remove-project name="platform/external/webp" />
+  <remove-project name="platform/system/ca-certificates" />
+  <remove-project name="LineageOS/android_external_chromium-webview" />
+
+  <!-- manifest -->
+  <project path="android" name="LineageOS-Revived/android" />
+
+  <!-- Security Patches -->
+  <project path="external/webp" name="LineageOS/android_external_webp" remote="github" revision="lineage-18.1" />
+
+  <project path="bionic" name="lin14-mGoms/android_bionic" revision="cm-14.1" />
+  <project path="external/aac" name="lin14-mGoms/android_external_aac" revision="lineage-17.1" />
+  <project path="external/boringssl" name="lin14-mGoms/android_external_boringssl" revision="cm-14.1" />
+  <project path="external/expat" name="lin14-mGoms/android_external_expat" revision="cm-14.1" />
+  <project path="external/icu" name="lin14-mGoms/android_external_icu" revision="cm-14.1" />
+  <project path="external/flac" name="lin14-mGoms/android_external_flac" revision="cm-14.1" />
+  <project path="external/freetype" name="LineageOS/android_external_freetype" revision="lineage-18.1" />
+  <project path="external/libavc" name="lin14-mGoms/android_external_libavc" revision="cm-14.1" />
+  <project path="external/libexif" name="lin14-mGoms/android_external_libexif" revision="cm-14.1" />
+  <project path="external/libnfc-nci" name="lin14-mGoms/android_external_libnfc-nci" revision="cm-14.1" />
+  <project path="external/libvpx" name="lin14-mGoms/android_external_libvpx" revision="cm-14.1" />
+  <project path="external/libxml2" name="lin14-mGoms/android_external_libxml2" revision="cm-14.1" />
+  <project path="external/sonivox" name="lin14-mGoms/android_external_sonivox" revision="cm-14.1" />
+  <project path="external/tremolo" name="lin14-mGoms/android_external_tremolo" revision="cm-14.1" />
+  <project path="external/zlib" name="lin14-mGoms/android_external_zlib" revision="cm-14.1" />
+  <project path="frameworks/av" name="lin14-mGoms/android_frameworks_av" revision="cm-14.1" />
+  <project path="frameworks/minikin" name="lin14-mGoms/android_frameworks_minikin" revision="cm-14.1" />
+  <project path="packages/apps/Bluetooth" name="lin14-mGoms/android_packages_apps_Bluetooth" revision="cm-14.1" />
+  <project path="packages/apps/KeyChain" name="lin14-mGoms/android_packages_apps_KeyChain" revision="cm-14.1" />
+  <project path="packages/apps/Nfc" name="lin14-mGoms/android_packages_apps_Nfc" revision="cm-14.1" />
+  <project path="packages/apps/TvSettings" name="lin14-mGoms/android_packages_apps_TvSettings" groups="pdk-fs" revision="cm-14.1" />
+  <project path="packages/providers/ContactsProvider" name="lin14-mGoms/android_packages_providers_ContactsProvider" revision="cm-14.1" />
+  <project path="packages/providers/MediaProvider" name="lin14-mGoms/android_packages_providers_MediaProvider" revision="cm-14.1" />
+  <project path="packages/providers/TelephonyProvider" name="lin14-mGoms/android_packages_providers_TelephonyProvider" revision="cm-14.1" />
+  <project path="packages/services/Telecomm" name="lin14-mGoms/android_packages_services_Telecomm" revision="cm-14.1" />
+  <project path="packages/services/Telephony" name="lin14-mGoms/android_packages_services_Telephony" revision="cm-14.1" />
+  <project path="system/bt" name="lin14-mGoms/android_system_bt" revision="cm-14.1" />
+  <project path="system/ca-certificates" name="lin14-mGoms/android_system_ca-certificates" revision="android12-release" />
+
+  <!-- Substratum -->
+  <remove-project name="LineageOS/android_packages_apps_Contacts" />
+  <remove-project name="LineageOS/android_packages_apps_ContactsCommon" />
+  <remove-project name="LineageOS/android_packages_apps_Dialer" />
+  <remove-project name="LineageOS/android_packages_apps_ExactCalculator" />
+  <remove-project name="LineageOS/android_packages_apps_PackageInstaller" />
+  <remove-project name="LineageOS/android_packages_apps_PhoneCommon" />
+
+  <project path="packages/apps/Contacts" name="lin14-mGoms/android_packages_apps_Contacts" />
+  <project path="packages/apps/ContactsCommon" name="lin14-mGoms/android_packages_apps_ContactsCommon" />
+  <project path="packages/apps/Dialer" name="lin14-mGoms/android_packages_apps_Dialer" />
+  <project path="packages/apps/ExactCalculator" name="lin14-mGoms/android_packages_apps_ExactCalculator" />
+  <project path="packages/apps/PackageInstaller" name="lin14-mGoms/android_packages_apps_PackageInstaller" />
+  <project path="packages/apps/PhoneCommon" name="lin14-mGoms/android_packages_apps_PhoneCommon" />
+
+  <!-- Track ThemeInterfacer -->
+  <project path="packages/services/ThemeInterfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
+
+  <!-- Upstreamed Repositories -->
+  <remove-project name="LineageOS/android_external_ffmpeg" />
+  <project path="external/ffmpeg" name="lin14-mGoms/android_external_ffmpeg" />
+  <remove-project name="LineageOS/android_external_iptables" />
+  <project path="external/iptables" name="lin14-mGoms/android_external_iptables" groups="pdk" />
+  <remove-project name="LineageOS/android_external_sqlite" />
+  <project path="external/sqlite" name="lin14-mGoms/android_external_sqlite" />
+  <remove-project name="LineageOS/android_frameworks_base" />
+  <project path="frameworks/base" name="lin14-mGoms/android_frameworks_base" />
+  <remove-project name="LineageOS/android_frameworks_native" />
+  <project path="frameworks/native" name="lin14-mGoms/android_frameworks_native" />
+  <remove-project name="LineageOS/android_packages_apps_Settings" />
+  <project path="packages/apps/Settings" name="lin14-mGoms/android_packages_apps_Settings" />
+  <remove-project name="LineageOS/android_packages_apps_SetupWizard" />
+  <project path="packages/apps/SetupWizard" name="lin14-mGoms/android_packages_apps_SetupWizard" />
+  <remove-project name="LineageOS/android_system_core" />
+  <project path="system/core" name="lin14-mGoms/android_system_core" />
+  <remove-project name="LineageOS/android_system_sepolicy" />
+  <project path="system/sepolicy" name="lin14-mGoms/android_system_sepolicy" />
+  <remove-project name="LineageOS/android_vendor_cm" />
+  <project path="vendor/cm" name="lin14-mGoms/android_vendor_cm" />
+
+  <!-- AuroraStore prebuilt-->
+  <project path="prebuilts/Aurorastore" name="MSe1969/AuroraStore-prebuilt" revision="master" clone-depth="1" />
+
+  <!-- Mulch webview -->
+  <project path="external/cromite-webview" name="syphyr/android_external_cromite-webview" revision="master" />
+
+  <!-- microG Build, prebuilt apks -->
+  <project name="MSe1969/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" clone-depth="1" revision="master" />
+
+  <!-- Forked Jelly Browser -->
+  <remove-project name="LineageOS/android_packages_apps_Jelly" />
+  <project path="packages/apps/Jelly" name="lin14-mGoms/android_packages_apps_Jelly" />
+</manifest>
