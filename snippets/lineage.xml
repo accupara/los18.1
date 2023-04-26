@@ -151,6 +151,8 @@
   <project path="vendor/qcom/opensource/power" name="LineageOS/android_vendor_qcom_opensource_power" groups="qcom,pdk-qcom" />
   <project path="vendor/qcom/opensource/thermal-engine" name="LineageOS/android_vendor_qcom_opensource_thermal-engine" groups="qcom,pdk-qcom" />
   <project path="vendor/qcom/opensource/vibrator" name="LineageOS/android_vendor_qcom_opensource_vibrator" groups="qcom,pdk-qcom" />
+  <!-- AOSPA ThankYouMario-->
+  <project path="vendor/qcom/common" name="ThankYouMario/proprietary_vendor_qcom_common" revision="quartz" />
 
   <!-- Intel additions -->
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel,pdk" revision="master" remote="aosp" />
