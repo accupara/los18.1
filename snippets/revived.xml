@@ -31,7 +31,6 @@
   <remove-project name="platform/external/expat" />
   <remove-project name="platform/external/webp" />
   <remove-project name="platform/system/ca-certificates" />
-  <remove-project name="LineageOS/android_external_chromium-webview" />
 
   <!-- manifest -->
   <project path="android" name="LineageOS-Revived/android" />
@@ -105,14 +104,9 @@
   <project path="system/core" name="lin14-mGoms/android_system_core" />
   <remove-project name="LineageOS/android_system_sepolicy" />
   <project path="system/sepolicy" name="lin14-mGoms/android_system_sepolicy" />
-  <remove-project name="LineageOS/android_vendor_cm" />
-  <project path="vendor/cm" name="lin14-mGoms/android_vendor_cm" />
 
   <!-- AuroraStore prebuilt-->
   <project path="prebuilts/Aurorastore" name="MSe1969/AuroraStore-prebuilt" revision="master" clone-depth="1" />
-
-  <!-- Mulch webview -->
-  <project path="external/cromite-webview" name="LineageOS-Revived/android_external_cromite-webview" revision="main" />
 
   <!-- microG Build, prebuilt apks -->
   <project name="MSe1969/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" clone-depth="1" revision="master" />
