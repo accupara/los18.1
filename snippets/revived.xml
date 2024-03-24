@@ -1,109 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remove-project name="LineageOS/android" />
-  <remove-project name="LineageOS/android_bionic" />
-  <remove-project name="LineageOS/android_external_aac" />
-  <remove-project name="LineageOS/android_external_boringssl" />
-  <remove-project name="LineageOS/android_external_icu" />
-  <remove-project name="LineageOS/android_external_flac" />
-  <remove-project name="LineageOS/android_external_freetype" />
-  <remove-project name="LineageOS/android_external_libavc" />
-  <remove-project name="LineageOS/android_external_libexif" />
-  <remove-project name="LineageOS/android_external_libnfc-nci" />
-  <remove-project name="LineageOS/android_external_libvpx" />
-  <remove-project name="LineageOS/android_external_libxml2" />
-  <remove-project name="LineageOS/android_external_sonivox" />
-  <remove-project name="LineageOS/android_external_tremolo" />
-  <remove-project name="LineageOS/android_external_zlib" />
-  <remove-project name="LineageOS/android_frameworks_av" />
-  <remove-project name="LineageOS/android_frameworks_minikin" />
-  <remove-project name="LineageOS/android_packages_apps_Bluetooth" />
-  <remove-project name="LineageOS/android_packages_apps_KeyChain" />
-  <remove-project name="LineageOS/android_packages_apps_Nfc" />
-  <remove-project name="LineageOS/android_packages_apps_TvSettings" />
-  <remove-project name="LineageOS/android_packages_providers_ContactsProvider" />
-  <remove-project name="LineageOS/android_packages_providers_MediaProvider" />
-  <remove-project name="LineageOS/android_packages_providers_TelephonyProvider" />
-  <remove-project name="LineageOS/android_packages_services_Telecomm" />
-  <remove-project name="LineageOS/android_packages_services_Telephony" />
-  <remove-project name="LineageOS/android_system_bt" />
-
-  <remove-project name="platform/external/expat" />
-  <remove-project name="platform/external/webp" />
-  <remove-project name="platform/system/ca-certificates" />
-
   <!-- manifest -->
-  <project path="android" name="LineageOS-Revived/android" />
+  <remove-project name="LineageOS/android" />
+  <project name="LineageOS-Revived/android" path="android" />
 
   <!-- Security Patches -->
-  <project path="external/webp" name="LineageOS-Revived/android_external_webp" />
-
-  <project path="bionic" name="lin14-mGoms/android_bionic" />
-  <project path="external/aac" name="lin14-mGoms/android_external_aac" revision="lineage-17.1" />
-  <project path="external/boringssl" name="lin14-mGoms/android_external_boringssl" />
-  <project path="external/expat" name="lin14-mGoms/android_external_expat" />
-  <project path="external/icu" name="lin14-mGoms/android_external_icu" />
-  <project path="external/flac" name="lin14-mGoms/android_external_flac" />
-  <project path="external/freetype" name="LineageOS-Revived/android_external_freetype" />
-  <project path="external/libavc" name="lin14-mGoms/android_external_libavc" />
-  <project path="external/libexif" name="lin14-mGoms/android_external_libexif" />
-  <project path="external/libnfc-nci" name="lin14-mGoms/android_external_libnfc-nci" />
-  <project path="external/libvpx" name="lin14-mGoms/android_external_libvpx" />
-  <project path="external/libxml2" name="lin14-mGoms/android_external_libxml2" />
-  <project path="external/sonivox" name="lin14-mGoms/android_external_sonivox" />
-  <project path="external/tremolo" name="lin14-mGoms/android_external_tremolo" />
-  <project path="external/zlib" name="lin14-mGoms/android_external_zlib" />
-  <project path="frameworks/av" name="lin14-mGoms/android_frameworks_av" />
-  <project path="frameworks/minikin" name="lin14-mGoms/android_frameworks_minikin" />
-  <project path="packages/apps/Bluetooth" name="lin14-mGoms/android_packages_apps_Bluetooth" />
-  <project path="packages/apps/KeyChain" name="lin14-mGoms/android_packages_apps_KeyChain" />
-  <project path="packages/apps/Nfc" name="lin14-mGoms/android_packages_apps_Nfc" />
-  <project path="packages/apps/TvSettings" name="lin14-mGoms/android_packages_apps_TvSettings" groups="pdk-fs" />
-  <project path="packages/providers/ContactsProvider" name="lin14-mGoms/android_packages_providers_ContactsProvider" />
-  <project path="packages/providers/MediaProvider" name="lin14-mGoms/android_packages_providers_MediaProvider" />
-  <project path="packages/providers/TelephonyProvider" name="lin14-mGoms/android_packages_providers_TelephonyProvider" />
-  <project path="packages/services/Telecomm" name="lin14-mGoms/android_packages_services_Telecomm" />
-  <project path="packages/services/Telephony" name="lin14-mGoms/android_packages_services_Telephony" />
-  <project path="system/bt" name="lin14-mGoms/android_system_bt" />
-  <project path="system/ca-certificates" name="lin14-mGoms/android_system_ca-certificates" revision="android12-release" />
+  <remove-project name="LineageOS/android_bionic" />
+  <project name="lin14-mGoms/android_bionic" path="bionic" />
+  <remove-project name="LineageOS/android_external_aac" />
+  <project name="lin14-mGoms/android_external_aac" path="external/aac" revision="lineage-17.1" />
+  <remove-project name="LineageOS/android_external_boringssl" />
+  <project name="lin14-mGoms/android_external_boringssl" path="external/boringssl" />
+  <remove-project name="platform/external/expat" />
+  <project name="lin14-mGoms/android_external_expat" path="external/expat" />
+  <remove-project name="LineageOS/android_external_icu" />
+  <project name="lin14-mGoms/android_external_icu" path="external/icu" />
+  <remove-project name="LineageOS/android_external_flac" />
+  <project name="lin14-mGoms/android_external_flac" path="external/flac" />
+  <remove-project name="platform/external/webp" />
+  <project name="LineageOS-Revived/android_external_webp" path="external/webp" />
+  <remove-project name="LineageOS/android_external_freetype" />
+  <project name="LineageOS-Revived/android_external_freetype" path="external/freetype" />
+  <remove-project name="LineageOS/android_external_libavc" />
+  <project name="lin14-mGoms/android_external_libavc" path="external/libavc" />
+  <remove-project name="LineageOS/android_external_libexif" />
+  <project name="lin14-mGoms/android_external_libexif" path="external/libexif" />
+  <remove-project name="LineageOS/android_external_libnfc-nci" />
+  <project name="lin14-mGoms/android_external_libnfc-nci" path="external/libnfc-nci" />
+  <remove-project name="LineageOS/android_external_libvpx" />
+  <project name="lin14-mGoms/android_external_libvpx" path="external/libvpx" />
+  <remove-project name="LineageOS/android_external_libxml2" />
+  <project name="lin14-mGoms/android_external_libxml2" path="external/libxml2" />
+  <remove-project name="LineageOS/android_external_sonivox" />
+  <project name="lin14-mGoms/android_external_sonivox" path="external/sonivox" />
+  <remove-project name="LineageOS/android_external_tremolo" />
+  <project name="lin14-mGoms/android_external_tremolo" path="external/tremolo" />
+  <remove-project name="LineageOS/android_external_zlib" />
+  <project name="lin14-mGoms/android_external_zlib" path="external/zlib" />
+  <remove-project name="LineageOS/android_frameworks_av" />
+  <project name="lin14-mGoms/android_frameworks_av" path="frameworks/av" />
+  <remove-project name="LineageOS/android_frameworks_minikin" />
+  <project name="lin14-mGoms/android_frameworks_minikin" path="frameworks/minikin" />
+  <remove-project name="LineageOS/android_packages_apps_Bluetooth" />
+  <project name="lin14-mGoms/android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" />
+  <remove-project name="LineageOS/android_packages_apps_KeyChain" />
+  <project name="lin14-mGoms/android_packages_apps_KeyChain" path="packages/apps/KeyChain" />
+  <remove-project name="LineageOS/android_packages_apps_Nfc" />
+  <project name="lin14-mGoms/android_packages_apps_Nfc" path="packages/apps/Nfc" />
+  <remove-project name="LineageOS/android_packages_apps_TvSettings" />
+  <project name="lin14-mGoms/android_packages_apps_TvSettings" path="packages/apps/TvSettings" />
+  <remove-project name="LineageOS/android_packages_providers_ContactsProvider" />
+  <project name="lin14-mGoms/android_packages_providers_ContactsProvider" path="packages/providers/ContactsProvider" />
+  <remove-project name="LineageOS/android_packages_providers_MediaProvider" />
+  <project name="lin14-mGoms/android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" />
+  <remove-project name="LineageOS/android_packages_providers_TelephonyProvider" />
+  <project name="lin14-mGoms/android_packages_providers_TelephonyProvider" path="packages/providers/TelephonyProvider" />
+  <remove-project name="LineageOS/android_packages_services_Telecomm" />
+  <project name="lin14-mGoms/android_packages_services_Telecomm" path="packages/services/Telecomm" />
+  <remove-project name="LineageOS/android_packages_services_Telephony" />
+  <project name="lin14-mGoms/android_packages_services_Telephony" path="packages/services/Telephony" />
+  <remove-project name="LineageOS/android_system_bt" />
+  <project name="lin14-mGoms/android_system_bt" path="system/bt" />
+  <remove-project name="platform/system/ca-certificates" />
+  <project name="lin14-mGoms/android_system_ca-certificates" path="system/ca-certificates" revision="android12-release" />
 
   <!-- Substratum -->
   <remove-project name="LineageOS/android_packages_apps_Contacts" />
+  <project name="lin14-mGoms/android_packages_apps_Contacts" path="packages/apps/Contacts" />
   <remove-project name="LineageOS/android_packages_apps_ContactsCommon" />
+  <project name="lin14-mGoms/android_packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" />
   <remove-project name="LineageOS/android_packages_apps_Dialer" />
+  <project name="lin14-mGoms/android_packages_apps_Dialer" path="packages/apps/Dialer" />
   <remove-project name="LineageOS/android_packages_apps_ExactCalculator" />
+  <project name="lin14-mGoms/android_packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" />
   <remove-project name="LineageOS/android_packages_apps_PackageInstaller" />
+  <project name="lin14-mGoms/android_packages_apps_PackageInstaller" path="packages/apps/PackageInstaller" />
   <remove-project name="LineageOS/android_packages_apps_PhoneCommon" />
-
-  <project path="packages/apps/Contacts" name="lin14-mGoms/android_packages_apps_Contacts" />
-  <project path="packages/apps/ContactsCommon" name="lin14-mGoms/android_packages_apps_ContactsCommon" />
-  <project path="packages/apps/Dialer" name="lin14-mGoms/android_packages_apps_Dialer" />
-  <project path="packages/apps/ExactCalculator" name="lin14-mGoms/android_packages_apps_ExactCalculator" />
-  <project path="packages/apps/PackageInstaller" name="lin14-mGoms/android_packages_apps_PackageInstaller" />
-  <project path="packages/apps/PhoneCommon" name="lin14-mGoms/android_packages_apps_PhoneCommon" />
+  <project name="lin14-mGoms/android_packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" />
 
   <!-- Track ThemeInterfacer -->
-  <project path="packages/services/ThemeInterfacer" name="substratum/interfacer" revision="n-rootless" />
+  <project name="substratum/interfacer" path="packages/services/ThemeInterfacer" revision="n-rootless" />
 
   <!-- Upstreamed Repositories -->
   <remove-project name="LineageOS/android_external_ffmpeg" />
-  <project path="external/ffmpeg" name="lin14-mGoms/android_external_ffmpeg" />
+  <project name="lin14-mGoms/android_external_ffmpeg" path="external/ffmpeg" />
   <remove-project name="LineageOS/android_external_iptables" />
-  <project path="external/iptables" name="lin14-mGoms/android_external_iptables" groups="pdk" />
+  <project name="lin14-mGoms/android_external_iptables" path="external/iptables" />
   <remove-project name="LineageOS/android_external_sqlite" />
-  <project path="external/sqlite" name="lin14-mGoms/android_external_sqlite" />
+  <project name="lin14-mGoms/android_external_sqlite" path="external/sqlite" />
   <remove-project name="LineageOS/android_frameworks_base" />
-  <project path="frameworks/base" name="LineageOS-Revived/android_frameworks_base" />
+  <project name="LineageOS-Revived/android_frameworks_base" path="frameworks/base" />
   <remove-project name="LineageOS/android_frameworks_native" />
-  <project path="frameworks/native" name="lin14-mGoms/android_frameworks_native" />
+  <project name="lin14-mGoms/android_frameworks_native" path="frameworks/native" />
   <remove-project name="LineageOS/android_packages_apps_Settings" />
-  <project path="packages/apps/Settings" name="LineageOS-Revived/android_packages_apps_Settings" />
+  <project name="LineageOS-Revived/android_packages_apps_Settings" path="packages/apps/Settings" />
   <remove-project name="LineageOS/android_packages_apps_SetupWizard" />
-  <project path="packages/apps/SetupWizard" name="lin14-mGoms/android_packages_apps_SetupWizard" />
+  <project name="lin14-mGoms/android_packages_apps_SetupWizard" path="packages/apps/SetupWizard" revision="cm-14.1-microG" />
   <remove-project name="LineageOS/android_system_core" />
-  <project path="system/core" name="LineageOS-Revived/android_system_core" />
+  <project name="LineageOS-Revived/android_system_core" path="system/core" />
   <remove-project name="LineageOS/android_system_sepolicy" />
-  <project path="system/sepolicy" name="lin14-mGoms/android_system_sepolicy" />
+  <project name="lin14-mGoms/android_system_sepolicy" path="system/sepolicy" />
   <remove-project name="LineageOS/android_vendor_cm" />
   <project name="LineageOS-Revived/android_vendor_cm" path="vendor/cm" />
 
@@ -129,4 +125,8 @@
   <!-- Launcher -->
   <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
   <project name="LineageOS-Revived/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" />
+
+  <!-- Keyboard -->
+  <remove-project name="LineageOS/android_packages_inputmethods_LatinIME" />
+  <project name="LineageOS-Revived/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" />
 </manifest>
