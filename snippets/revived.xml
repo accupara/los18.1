@@ -112,7 +112,7 @@
   <project path="prebuilts/Aurorastore" name="MSe1969/AuroraStore-prebuilt" revision="master" clone-depth="1" />
 
   <!-- Mulch webview -->
-  <project path="external/cromite-webview" name="syphyr/android_external_cromite-webview" revision="master" />
+  <project path="external/cromite-webview" name="LineageOS-Revived/android_external_cromite-webview" revision="main" />
 
   <!-- microG Build, prebuilt apks -->
   <project name="MSe1969/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" clone-depth="1" revision="master" />
