@@ -6,7 +6,7 @@
 
   <!-- Security Patches -->
   <remove-project name="LineageOS/android_bionic" />
-  <project name="lin14-mGoms/android_bionic" path="bionic" />
+  <project name="LineageOS-Revived/android_bionic" path="bionic" />
   <remove-project name="LineageOS/android_external_aac" />
   <project name="lin14-mGoms/android_external_aac" path="external/aac" revision="lineage-17.1" />
   <remove-project name="LineageOS/android_external_boringssl" />
@@ -14,7 +14,7 @@
   <remove-project name="platform/external/expat" />
   <project name="lin14-mGoms/android_external_expat" path="external/expat" />
   <remove-project name="LineageOS/android_external_icu" />
-  <project name="lin14-mGoms/android_external_icu" path="external/icu" />
+  <project name="LineageOS-Revived/android_external_icu" path="external/icu" />
   <remove-project name="LineageOS/android_external_flac" />
   <project name="lin14-mGoms/android_external_flac" path="external/flac" />
   <remove-project name="platform/external/webp" />
