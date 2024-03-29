@@ -40,7 +40,7 @@
   <remove-project name="LineageOS/android_frameworks_av" />
   <project name="lin14-mGoms/android_frameworks_av" path="frameworks/av" />
   <remove-project name="LineageOS/android_frameworks_minikin" />
-  <project name="lin14-mGoms/android_frameworks_minikin" path="frameworks/minikin" />
+  <project name="LineageOS-Revived/android_frameworks_minikin" path="frameworks/minikin" />
   <remove-project name="LineageOS/android_packages_apps_Bluetooth" />
   <project name="lin14-mGoms/android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" />
   <remove-project name="LineageOS/android_packages_apps_KeyChain" />
@@ -99,7 +99,9 @@
   <remove-project name="LineageOS/android_system_core" />
   <project name="LineageOS-Revived/android_system_core" path="system/core" />
   <remove-project name="LineageOS/android_system_sepolicy" />
-  <project name="lin14-mGoms/android_system_sepolicy" path="system/sepolicy" />
+  <project name="LineageOS-Revived/android_system_sepolicy" path="system/sepolicy" />
+  <remove-project name="LineageOS/android_external_v8" />
+  <project name="LineageOS-Revived/android_external_v8" path="external/v8" />
   <remove-project name="LineageOS/android_vendor_cm" />
   <project name="LineageOS-Revived/android_vendor_cm" path="vendor/cm" />
 
