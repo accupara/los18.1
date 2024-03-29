@@ -4,6 +4,11 @@
   <remove-project name="LineageOS/android" />
   <project name="LineageOS-Revived/android" path="android" />
 
+  <remove-project name="LineageOS/android_build" />
+  <project path="build" name="LineageOS-Revived/android_build">
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+
   <!-- Security Patches -->
   <remove-project name="LineageOS/android_bionic" />
   <project name="LineageOS-Revived/android_bionic" path="bionic" />
