@@ -64,23 +64,6 @@
   <remove-project name="platform/system/ca-certificates" />
   <project name="lin14-mGoms/android_system_ca-certificates" path="system/ca-certificates" revision="android12-release" />
 
-  <!-- Substratum -->
-  <remove-project name="LineageOS/android_packages_apps_Contacts" />
-  <project name="lin14-mGoms/android_packages_apps_Contacts" path="packages/apps/Contacts" />
-  <remove-project name="LineageOS/android_packages_apps_ContactsCommon" />
-  <project name="lin14-mGoms/android_packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" />
-  <remove-project name="LineageOS/android_packages_apps_Dialer" />
-  <project name="lin14-mGoms/android_packages_apps_Dialer" path="packages/apps/Dialer" />
-  <remove-project name="LineageOS/android_packages_apps_ExactCalculator" />
-  <project name="lin14-mGoms/android_packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" />
-  <remove-project name="LineageOS/android_packages_apps_PackageInstaller" />
-  <project name="lin14-mGoms/android_packages_apps_PackageInstaller" path="packages/apps/PackageInstaller" />
-  <remove-project name="LineageOS/android_packages_apps_PhoneCommon" />
-  <project name="lin14-mGoms/android_packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" />
-
-  <!-- Track ThemeInterfacer -->
-  <project name="substratum/interfacer" path="packages/services/ThemeInterfacer" revision="n-rootless" />
-
   <!-- Upstreamed Repositories -->
   <remove-project name="LineageOS/android_external_ffmpeg" />
   <project name="lin14-mGoms/android_external_ffmpeg" path="external/ffmpeg" />
