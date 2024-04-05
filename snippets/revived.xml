@@ -48,10 +48,16 @@
   <project name="LineageOS-Revived/android_frameworks_minikin" path="frameworks/minikin" />
   <remove-project name="LineageOS/android_packages_apps_Bluetooth" />
   <project name="lin14-mGoms/android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" />
+  <remove-project name="LineageOS/android_packages_apps_Contacts" />
+  <project name="lin14-mGoms/android_packages_apps_Contacts" path="packages/apps/Contacts" />
+  <remove-project name="LineageOS/android_packages_apps_Dialer" />
+  <project name="lin14-mGoms/android_packages_apps_Dialer" path="packages/apps/Dialer" />
   <remove-project name="LineageOS/android_packages_apps_KeyChain" />
   <project name="lin14-mGoms/android_packages_apps_KeyChain" path="packages/apps/KeyChain" />
   <remove-project name="LineageOS/android_packages_apps_Nfc" />
   <project name="lin14-mGoms/android_packages_apps_Nfc" path="packages/apps/Nfc" />
+  <remove-project name="LineageOS/android_packages_apps_PackageInstaller" />
+  <project name="lin14-mGoms/android_packages_apps_PackageInstaller" path="packages/apps/PackageInstaller" />
   <remove-project name="LineageOS/android_packages_apps_TvSettings" />
   <project name="lin14-mGoms/android_packages_apps_TvSettings" path="packages/apps/TvSettings" />
   <remove-project name="LineageOS/android_packages_providers_ContactsProvider" />
