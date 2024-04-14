@@ -2,4 +2,26 @@
 <manifest>
   <remove-project name="LineageOS/android" />
   <project name="LineageOS-Revived/android" path="android" />
+
+  <remove-project name="LineageOS/android_build" />
+  <project name="LineageOS-Revived/android_build" path="build/make" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+
+  <remove-project name="LineageOS/android_frameworks_av" />
+  <project name="LineageOS-Revived/android_frameworks_av" path="frameworks/av" />
+  <remove-project name="LineageOS/android_frameworks_base" />
+  <project name="LineageOS-Revived/android_frameworks_base" path="frameworks/base" />
+
+  <remove-project name="LineageOS/android_system_bt" />
+  <project name="LineageOS-Revived/android_system_bt" path="system/bt" />
+
+  <remove-project name="LineageOS/android_vendor_qcom_opensource_system_bt" />
+  <project name="LineageOS-Revived/android_vendor_qcom_opensource_system_bt" path="vendor/qcom/opensource/commonsys/system/bt" />
 </manifest>
