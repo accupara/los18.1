@@ -104,7 +104,7 @@
   <project path="external/chromium-webview/prebuilt/x86" name="LineageOS/android_external_chromium-webview_prebuilt_x86" groups="pdk" revision="main" />
   <project path="external/chromium-webview/prebuilt/x86_64" name="LineageOS/android_external_chromium-webview_prebuilt_x86_64" groups="pdk" revision="main" />
   <project path="external/clang" name="platform/external/clang" groups="pdk" remote="aosp" />
-  <project path="external/cldr" name="LineageOS/android_external_cldr" groups="pdk" />
+  <project path="external/cldr" name="LineageOS-Revived/android_external_cldr" groups="pdk" />
   <project path="external/cmockery" name="platform/external/cmockery" groups="pdk" remote="aosp" />
   <project path="external/cn-cbor" name="platform/external/cn-cbor" groups="pdk" remote="aosp" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" remote="aosp" />
