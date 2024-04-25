@@ -14,6 +14,11 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
+  <remove-project name="LineageOS/android_external_cldr" />
+  <project name="LineageOS-Revived/android_external_cldr" path="external/cldr" />
+  <remove-project name="LineageOS/android_external_icu" />
+  <project name="LineageOS-Revived/android_external_icu" path="external/icu" />
+
   <remove-project name="LineageOS/android_frameworks_av" />
   <project name="LineageOS-Revived/android_frameworks_av" path="frameworks/av" />
   <remove-project name="LineageOS/android_frameworks_base" />
@@ -33,6 +38,8 @@
   <project name="LineageOS-Revived/android_system_bt" path="system/bt" />
   <remove-project name="LineageOS/android_system_core" />
   <project name="LineageOS-Revived/android_system_core" path="system/core" />
+  <remove-project name="LineageOS/android_system_timezone" />
+  <project name="LineageOS-Revived/android_system_timezone" path="system/timezone" />
 
   <remove-project name="LineageOS/android_vendor_qcom_opensource_system_bt" />
   <project name="LineageOS-Revived/android_vendor_qcom_opensource_system_bt" path="vendor/qcom/opensource/commonsys/system/bt" />
