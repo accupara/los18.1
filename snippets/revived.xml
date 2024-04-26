@@ -1,0 +1,143 @@
+<?xmnl version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remove-project name="LineageOS/android" />
+  <project name="LineageOS-Revived/android" path="android" />
+
+  <remove-project name="LineageOS/android_build" />
+  <project name="lin16-microG/android_build" path="build/make" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+
+  <remove-project name="LineageOS/android_external_aac" />
+  <project name="lin16-microG/android_external_aac" path="external/aac" />
+  <remove-project name="LineageOS/android_external_chromium-webview" />
+  <project name="LineageOS/android_external_chromium-webview_patches" path="external/chromium-webview/patches" revision="main" >
+    <linkfile src="Android.mk" dest="external/chromium-webview/Android.mk" />
+    <linkfile src="CleanSpec.mk" dest="external/chromium-webview/CleanSpec.mk" />
+    <linkfile src="README" dest="external/chromium-webview/README" />
+  </project>
+  <project name="LineageOS/android_external_chromium-webview_prebuilt_arm" path="external/chromium-webview/prebuilt/arm" revision="main" />
+  <project name="LineageOS/android_external_chromium-webview_prebuilt_arm64" path="external/chromium-webview/prebuilt/arm64" revision="main" />
+  <project name="LineageOS/android_external_chromium-webview_prebuilt_x86" path="external/chromium-webview/prebuilt/x86" revision="main" />
+  <project name="LineageOS/android_external_chromium-webview_prebuilt_x86_64" path="external/chromium-webview/prebuilt/x86_64" revision="main" />
+  <remove-project name="platform/external/dtc" />
+  <project name="lin16-microG/android_external_dtc" path="external/dtc" />
+  <remove-project name="platform/external/expat" />
+  <project name="lin16-microG/android_external_expat" path="external/expat" />
+  <remove-project name="LineageOS/android_external_freetype" />
+  <project name="lin16-microG/android_external_freetype" path="external/freetype" />
+  <remove-project name="LineageOS/android_external_icu" />
+  <project name="lin16-microG/android_external_icu" path="external/icu" />
+  <remove-project name="LineageOS/android_external_libcups" />
+  <project name="lin16-microG/android_external_libcups" path="external/libcups" />
+  <remove-project name="platform/external/libvpx" />
+  <project name="lin16-microG/android_external_libvpx" path="external/libvpx" />
+  <remove-project name="platform/external/libxml2" />
+  <project name="lin16-microG/android_external_libxml2" path="external/libxml2" />
+  <remove-project name="LineageOS/android_external_selinux" />
+  <project name="lin16-microG/android_external_selinux" path="external/selinux" />
+  <remove-project name="platform/external/webp" />
+  <project name="LineageOS/android_external_webp" path="external/webp" revision="lineage-18.1" />
+  <remove-project name="LineageOS/android_external_zlib" />
+  <project name="lin16-microG/android_external_zlib" path="external/zlib" />
+
+  <remove-project name="LineageOS/android_libcore" />
+  <project name="lin16-microG/android_libcore" path="libcore" />
+
+  <remove-project name="LineageOS/android_lineage-sdk" />
+  <project path="lineage-sdk" name="lin16-microG/android_lineage-sdk" />
+
+  <remove-project name="LineageOS/android_frameworks_av" />
+  <project name="lin16-microG/android_frameworks_av" path="frameworks/av" />
+  <remove-project name="LineageOS/android_frameworks_base" />
+  <project name="lin16-microG/android_frameworks_base" path="frameworks/base" />
+  <remove-project name="LineageOS/android_frameworks_minikin" />
+  <project name="lin16-microg/android_frameworks_minikin" path="frameworks/minikin" />
+  <remove-project name="LineageOS/android_frameworks_native" />
+  <project name="lin16-microG/android_frameworks_native" path="frameworks/native" />
+  <remove-project name="LineageOS/android_frameworks_opt_net_wifi" />
+  <project name="lin16-microG/android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" />
+  <remove-project name="LineageOS/android_frameworks_opt_telephony" />
+  <project name="lin16-microG/android_frameworks_opt_telephony" path="frameworks/opt/telephony" />
+
+  <remove-project name="LineageOS/android_hardware_nxp_nfc" />
+  <project name="lin16-microG/android_hardware_nxp_nfc" path="hardware/nxp/nfc" />
+
+  <remove-project name="LineageOS/android_packages_apps_Bluetooth" />
+  <project name="lin16-microG/android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" />
+  <remove-project name="LineageOS/android_packages_apps_Contacts" />
+  <project name="lin16-microG/android_packages_apps_Contacts" path="packages/apps/Contacts" />
+  <remove-project name="LineageOS/android_packages_apps_EmergencyInfo" />
+  <project name="lin16-microG/android_packages_apps_EmergencyInfo" path="packages/apps/EmergencyInfo" />
+  <remove-project name="LineageOS/android_packages_apps_KeyChain" />
+  <project name="lin16-microG/android_packages_apps_KeyChain" path="packages/apps/KeyChain" />
+  <remove-project name="LineageOS/android_packages_apps_Dialer" />
+  <project name="lin16-microG/android_packages_apps_Dialer" path="packages/apps/Dialer" />
+  <remove-project name="LineageOS/android_packages_apps_Eleven" />
+  <project name="lin16-microG/android_packages_apps_Eleven" path="packages/apps/Eleven" />
+  <remove-project name="LineageOS/android_packages_apps_Nfc" />
+  <project name="lin16-microG/android_packages_apps_Nfc" path="packages/apps/Nfc" />
+  <remove-project name="LineageOS/android_packages_apps_PackageInstaller" />
+  <project name="lin16-microG/android_packages_apps_PackageInstaller" path="packages/apps/PackageInstaller" />
+  <remove-project name="LineageOS/android_packages_apps_Settings" />
+  <project name="lin16-microG/android_packages_apps_Settings" path="packages/apps/Settings" />
+  <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
+  <project name="lin16-microG/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" />
+  <remove-project name="LineageOS/android_packages_apps_TvSettings" />
+  <project name="lin16-microG/android_packages_apps_TvSettings" path="packages/apps/TvSettings" />
+  <remove-project name="LineageOS/android_packages_apps_Traceur" />
+  <project name="lin16-microG/android_packages_apps_Traceur" path="packages/apps/Traceur" />
+
+  <remove-project name="LineageOS/android_packages_providers_ContactsProvider" />
+  <project name="lin16-microG/android_packages_providers_ContactsProvider" path="packages/providers/ContactsProvider" />
+  <remove-project name="LineageOS/android_packages_providers_DownloadProvider" />
+  <project name="lin16-microG/android_packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" />
+  <remove-project name="LineageOS/android_packages_providers_TelephonyProvider" />
+  <project name="lin16-microG/android_packages_providers_TelephonyProvider" path="packages/providers/TelephonyProvider" />
+
+  <remove-project name="LineageOS/android_packages_services_BuiltInPrintService" />
+  <project name="lin16-microG/android_packages_services_BuiltInPrintService" path="packages/services/BuiltInPrintService" />
+  <remove-project name="LineageOS/android_packages_services_Telecomm" />
+  <project name="lin16-microG/android_packages_services_Telecomm" path="packages/services/Telecomm" />
+  <remove-project name="LineageOS/android_packages_services_Telephony" />
+  <project name="lin16-microG/android_packages_services_Telephony" path="packages/services/Telephony" />
+
+  <remove-project name="LineageOS/android_system_bt" />
+  <project name="lin16-microG/android_system_bt" path="system/bt" />
+  <remove-project name="platform/system/ca-certificates" />
+  <project name="lin16-microG/android_system_ca-certificates" path="system/ca-certificates" />
+  <remove-project name="LineageOS/android_system_core" />
+  <project name="lin16-microG/android_system_core" path="system/core" />
+  <remove-project name="LineageOS/android_system_media" />
+  <project name="lin16-microG/android_system_media" path="system/media" />
+  <remove-project name="LineageOS/android_system_netd" />
+  <project name="lin16-microG/android_system_netd" path="system/netd" />
+  <remove-project name="LineageOS/android_system_nfc" />
+  <project name="lin16-microg/android_system_nfc" path="system/nfc" />
+  <remove-project name="LineageOS/android_system_sepolicy" />
+  <project name="lin16-microG/android_system_sepolicy" path="system/sepolicy" />
+  <remove-project name="LineageOS/android_system_timezone" />
+  <project name="lin16-microG/android_system_timezone" path="system/timezone" />
+  <remove-project name="LineageOS/android_system_vold" />
+  <project name="lin16-microG/android_system_vold" path="system/vold" />
+
+  <remove-project name="platform/tools/apksig" />
+  <project name="lin16-microG/android_tools_apksig" path="tools/apksig" />
+
+  <remove-project name="LineageOS/android_vendor_lineage" />
+  <project name="lin16-microG/android_vendor_lineage" path="vendor/lineage" />
+  <remove-project name="LineageOS/android_vendor_nxp_opensource_external_libnfc-nci" />
+  <project name="lin16-microG/android_vendor_nxp_opensource_external_libnfc-nci" path="vendor/nxp/opensource/commonsys/external/libnfc-nci" />
+  <remove-project name="LineageOS/android_vendor_nxp_opensource_halimpl" />
+  <project name="lin16-microG/android_vendor_nxp_opensource_halimpl" path="vendor/nxp/opensource/halimpl" />
+  <remove-project name="LineageOS/android_vendor_nxp_opensource_packages_apps_Nfc" />
+  <project name="lin16-microG/android_vendor_nxp_opensource_packages_apps_Nfc" path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" />
+  <remove-project name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" />
+  <project name="lin16-microG/android_vendor_qcom_opensource_cryptfs_hw" path="vendor/qcom/opensource/cryptfs_hw" />
+</manifest>
