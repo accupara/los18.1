@@ -69,7 +69,7 @@
   <remove-project name="LineageOS/android_packages_services_Telecomm" />
   <project name="lin14-mGoms/android_packages_services_Telecomm" path="packages/services/Telecomm" />
   <remove-project name="LineageOS/android_packages_services_Telephony" />
-  <project name="lin14-mGoms/android_packages_services_Telephony" path="packages/services/Telephony" />
+  <project name="LineageOS-Revived/android_packages_services_Telephony" path="packages/services/Telephony" />
   <remove-project name="LineageOS/android_system_bt" />
   <project name="LineageOS-Revived/android_system_bt" path="system/bt" />
   <remove-project name="platform/system/ca-certificates" />
@@ -85,7 +85,11 @@
   <remove-project name="LineageOS/android_frameworks_base" />
   <project name="LineageOS-Revived/android_frameworks_base" path="frameworks/base" />
   <remove-project name="LineageOS/android_frameworks_native" />
-  <project name="lin14-mGoms/android_frameworks_native" path="frameworks/native" />
+  <project name="LineageOS-Revived/android_frameworks_native" path="frameworks/native" />
+  <remove-project name="LineageOS/android_hardware_libhardware" />
+  <project name="LineageOS-Revived/android_hardware_libhardware" path="hardware/libhardware" />
+  <remove-project name="LineageOS/android_hardware_ril" />
+  <project name="LineageOS-Revived/android_hardware_ril" path="hardware/ril" />
   <remove-project name="LineageOS/android_packages_apps_Settings" />
   <project name="LineageOS-Revived/android_packages_apps_Settings" path="packages/apps/Settings" />
   <remove-project name="LineageOS/android_packages_apps_SetupWizard" />
