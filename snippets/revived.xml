@@ -102,6 +102,7 @@
   <project name="LineageOS-Revived/android_external_v8" path="external/v8" />
   <remove-project name="LineageOS/android_vendor_cm" />
   <project name="LineageOS-Revived/android_vendor_cm" path="vendor/cm" />
+  <project name="LineageOS-Revived/android_vendor_prebuilts" path="vendor/prebuilts" />
 
   <!-- AuroraStore prebuilt-->
   <project path="prebuilts/Aurorastore" name="MSe1969/AuroraStore-prebuilt" revision="master" clone-depth="1" />
