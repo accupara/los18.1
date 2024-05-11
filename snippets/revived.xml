@@ -18,6 +18,8 @@
   <project name="LineageOS-Revived/android_external_cldr" path="external/cldr" />
   <remove-project name="LineageOS/android_external_icu" />
   <project name="LineageOS-Revived/android_external_icu" path="external/icu" />
+  <remove-project name="platform/external/sonivox" />
+  <project name="LineageOS-Revived/android_external_sonivox" path="external/sonivox" />
 
   <remove-project name="LineageOS/android_frameworks_av" />
   <project name="LineageOS-Revived/android_frameworks_av" path="frameworks/av" />
