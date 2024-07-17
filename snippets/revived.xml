@@ -19,10 +19,10 @@
   <remove-project name="LineageOS/android_external_icu" />
   <project name="LineageOS-Revived/android_external_icu" path="external/icu" />
   <remove-project name="platform/external/sonivox" />
-  <project name="LineageOS-Revived/android_external_sonivox" path="external/sonivox" />
+  <project name="lin18-microG/android_external_sonivox" path="external/sonivox" />
 
   <remove-project name="LineageOS/android_frameworks_av" />
-  <project name="LineageOS-Revived/android_frameworks_av" path="frameworks/av" />
+  <project name="lin18-microG/android_frameworks_av" path="frameworks/av" />
   <remove-project name="LineageOS/android_frameworks_base" />
   <project name="LineageOS-Revived/android_frameworks_base" path="frameworks/base" />
 
@@ -36,8 +36,11 @@
   <remove-project name="LineageOS/android_packages_inputmethods_LatinIME" />
   <project name="LineageOS-Revived/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" />
 
+  <remove-project name="LineageOS/android_packages_providers_MediaProvider" />
+  <project name="lin18-microG/android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" />
+
   <remove-project name="LineageOS/android_system_bt" />
-  <project name="LineageOS-Revived/android_system_bt" path="system/bt" />
+  <project name="lin18-microG/android_system_bt" path="system/bt" />
   <remove-project name="LineageOS/android_system_ca-certificates" />
   <project name="LineageOS/android_system_ca-certificates" path="system/ca-certificates" revision="lineage-19.1" />
   <remove-project name="LineageOS/android_system_core" />
@@ -46,7 +49,7 @@
   <project name="LineageOS-Revived/android_system_timezone" path="system/timezone" />
 
   <remove-project name="LineageOS/android_vendor_qcom_opensource_system_bt" />
-  <project name="LineageOS-Revived/android_vendor_qcom_opensource_system_bt" path="vendor/qcom/opensource/commonsys/system/bt" />
+  <project name="lin18-microG/android_vendor_qcom_opensource_system_bt" path="vendor/qcom/opensource/commonsys/system/bt" />
 
   <remove-project name="LineageOS/android_vendor_lineage" />
   <project name="LineageOS-Revived/android_vendor_lineage" path="vendor/lineage" />
