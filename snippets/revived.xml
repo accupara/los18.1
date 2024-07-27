@@ -24,6 +24,8 @@
 
   <remove-project name="LineageOS/android_external_cldr" />
   <project name="LineageOS-Revived/android_external_cldr" path="external/cldr" />
+  <remove-project name="platform/external/cpu_features" />
+  <project name="crdroidandroid/android_external_cpu_features" path="external/cpu_features" revision="11.0" />
   <remove-project name="LineageOS/android_external_icu" />
   <project name="LineageOS-Revived/android_external_icu" path="external/icu" />
   <remove-project name="platform/external/sonivox" />
