@@ -31,6 +31,8 @@
   <remove-project name="platform/external/sonivox" />
   <project name="lin18-microG/android_external_sonivox" path="external/sonivox" />
   <project name="crdroidandroid/android_external_asus_stitchimage" path="external/asus/stitchimage" revision="11.0" />
+  <remove-project name="platform/external/vixl" />
+  <project name="crdroidandroid/android_external_vixl" path="external/vixl" revision="11.0" />
 
   <remove-project name="LineageOS/android_frameworks_av" />
   <project name="lin18-microG/android_frameworks_av" path="frameworks/av" />
