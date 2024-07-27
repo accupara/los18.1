@@ -4,7 +4,7 @@
   <project name="LineageOS-Revived/android" path="android" />
 
   <remove-project name="LineageOS/android_art" />
-  <project name="crdroidandroid/android_art" path="art" revision="11.0" />
+  <project name="LineageOS-Revived/android_art" path="art" />
 
   <remove-project name="LineageOS/android_build" />
   <project name="LineageOS-Revived/android_build" path="build/make" >
