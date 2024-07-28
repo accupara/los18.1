@@ -28,6 +28,8 @@
   <project name="crdroidandroid/android_external_cpu_features" path="external/cpu_features" revision="11.0" />
   <remove-project name="LineageOS/android_external_icu" />
   <project name="LineageOS-Revived/android_external_icu" path="external/icu" />
+  <remove-project name="LineageOS/android_tools_metalava" />
+  <project name="crdroidandroid/android_tools_metalava" path="tools/metalava" revision="11.0" />
   <remove-project name="platform/external/sonivox" />
   <project name="lin18-microG/android_external_sonivox" path="external/sonivox" />
   <project name="crdroidandroid/android_external_asus_stitchimage" path="external/asus/stitchimage" revision="11.0" />
