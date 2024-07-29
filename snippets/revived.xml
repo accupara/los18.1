@@ -56,6 +56,8 @@
   <project name="LineageOS-Revived/android_packages_apps_Settings" path="packages/apps/Settings" />
   <remove-project name="LineageOS/android_packages_apps_SetupWizard" />
   <project name="LineageOS-Revived/android_packages_apps_SetupWizard" path="packages/apps/SetupWizard" />
+  <remove-project name="LineageOS/android_packages_apps_ThemePicker" />
+  <project name="crdroidandroid/android_packages_apps_ThemePicker" path="packages/apps/ThemePicker" revision="11.0" />
   <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
   <project name="LineageOS-Revived/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" />
   <remove-project name="LineageOS/android_packages_apps_Updater" />
