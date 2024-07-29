@@ -6,6 +6,9 @@
   <remove-project name="LineageOS/android_art" />
   <project name="LineageOS-Revived/android_art" path="art" />
 
+  <remove-project name="LineageOS/android_bootable_recovery" />
+  <project name="LineageOS-Revived/android_bootable_recovery" path="bootable/recovery" />
+
   <remove-project name="LineageOS/android_build" />
   <project name="LineageOS-Revived/android_build" path="build/make" >
     <copyfile src="core/root.mk" dest="Makefile" />
