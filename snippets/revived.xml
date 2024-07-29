@@ -82,8 +82,10 @@
   <remove-project name="LineageOS/android_vendor_qcom_opensource_system_bt" />
   <project name="lin18-microG/android_vendor_qcom_opensource_system_bt" path="vendor/qcom/opensource/commonsys/system/bt" />
 
+  <remove-project name="LineageOS/android_packages_overlays_Lineage" />
+  <project name="LineageOS-Revived/android_vendor_addons" path="vendor/addons" />
+  <project name="LineageOS-Revived/android_vendor_extra" path="vendor/extra" />
   <remove-project name="LineageOS/android_vendor_lineage" />
   <project name="LineageOS-Revived/android_vendor_lineage" path="vendor/lineage" />
   <project name="LineageOS-Revived/android_vendor_prebuilts" path="vendor/prebuilts" />
-  <project name="LineageOS-Revived/android_vendor_extra" path="vendor/extra" />
 </manifest>
