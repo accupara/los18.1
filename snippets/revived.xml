@@ -85,6 +85,8 @@
   <project name="LineageOS-Revived/android_system_libfmq" path="system/libfmq" />
   <remove-project name="LineageOS/android_system_timezone" />
   <project name="LineageOS-Revived/android_system_timezone" path="system/timezone" />
+  <remove-project name="LineageOS/android_system_vold" />
+  <project name="LineageOS-Revived/android_system_vold" path="system/vold" />
 
   <remove-project name="LineageOS/android_vendor_qcom_opensource_system_bt" />
   <project name="lin18-microG/android_vendor_qcom_opensource_system_bt" path="vendor/qcom/opensource/commonsys/system/bt" />
