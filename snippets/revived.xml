@@ -81,6 +81,8 @@
   <project name="LineageOS/android_system_ca-certificates" path="system/ca-certificates" revision="lineage-19.1" />
   <remove-project name="LineageOS/android_system_core" />
   <project name="LineageOS-Revived/android_system_core" path="system/core" />
+  <remove-project name="platform/system/libfmq" />
+  <project name="LineageOS-Revived/android_system_libfmq" path="system/libfmq" />
   <remove-project name="LineageOS/android_system_timezone" />
   <project name="LineageOS-Revived/android_system_timezone" path="system/timezone" />
 
