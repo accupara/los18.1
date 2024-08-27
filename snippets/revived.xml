@@ -70,7 +70,7 @@
   <project name="LineageOS-Revived/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" />
 
   <remove-project name="platform/packages/modules/NetworkStack" />
-  <project name="LineageOS-Revived/android_packages_modules_NetworkStack" path="packages/modules/NetworkStack" revision="lin-18-microG" />
+  <project name="LineageOS-Revived/android_packages_modules_NetworkStack" path="packages/modules/NetworkStack" revision="lin-18.1-microG" />
 
   <remove-project name="LineageOS/android_packages_providers_MediaProvider" />
   <project name="lin18-microG/android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" />
