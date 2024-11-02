@@ -53,6 +53,7 @@
   <remove-project name="LineageOS/android_lineage-sdk" />
   <project name="LineageOS-Revived/android_lineage-sdk" path="lineage-sdk" />
 
+  <remove-project name="LineageOS/android_packages_apps_Eleven" />
   <remove-project name="LineageOS/android_packages_apps_Gallery2" />
   <project name="LineageOS-Revived/android_packages_apps_Gallery2" path="packages/apps/Gallery2" />
   <remove-project name="LineageOS/android_packages_apps_Settings" />
