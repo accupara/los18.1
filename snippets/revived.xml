@@ -29,10 +29,12 @@
   <project name="LineageOS-Revived/android_external_cldr" path="external/cldr" />
   <remove-project name="platform/external/cpu_features" />
   <project name="crdroidandroid/android_external_cpu_features" path="external/cpu_features" revision="11.0" />
+  <remove-project name="LineageOS/android_external_expat" />
+  <project name="lin18-microG/android_external_expat" path="external/expat" />
   <remove-project name="LineageOS/android_external_icu" />
   <project name="LineageOS-Revived/android_external_icu" path="external/icu" />
-  <remove-project name="LineageOS/android_tools_metalava" />
-  <project name="crdroidandroid/android_tools_metalava" path="tools/metalava" revision="11.0" />
+  <remove-project name="platform/external/skia" />
+  <project name="lin18-microG/android_external_skia" path="external/skia" />
   <remove-project name="platform/external/sonivox" />
   <project name="lin18-microG/android_external_sonivox" path="external/sonivox" />
   <project name="crdroidandroid/android_external_asus_stitchimage" path="external/asus/stitchimage" revision="11.0" />
@@ -48,11 +50,13 @@
   <project name="lin18-microG/android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" revision="lin-18.1-microG" />
 
   <remove-project name="LineageOS/android_libcore" />
-  <project name="crdroidandroid/android_libcore" path="libcore" revision="11.0" />
+  <project name="LineageOS-Revived/android_libcore" path="libcore" />
 
   <remove-project name="LineageOS/android_lineage-sdk" />
   <project name="LineageOS-Revived/android_lineage-sdk" path="lineage-sdk" />
 
+  <remove-project name="LineageOS/android_packages_apps_Bluetooth" />
+  <project name="lin18-microG/android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" />
   <remove-project name="LineageOS/android_packages_apps_Eleven" />
   <remove-project name="LineageOS/android_packages_apps_Gallery2" />
   <project name="LineageOS-Revived/android_packages_apps_Gallery2" path="packages/apps/Gallery2" />
@@ -76,6 +80,9 @@
   <remove-project name="LineageOS/android_packages_providers_MediaProvider" />
   <project name="lin18-microG/android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" />
 
+  <remove-project name="LineageOS/android_packages_services_Telecomm" />
+  <project name="lin18-microG/android_packages_services_Telecomm" path="packages/services/Telecomm" />
+
   <remove-project name="LineageOS/android_system_bt" />
   <project name="lin18-microG/android_system_bt" path="system/bt" />
   <remove-project name="LineageOS/android_system_ca-certificates" />
@@ -83,7 +90,7 @@
   <remove-project name="LineageOS/android_system_core" />
   <project name="LineageOS-Revived/android_system_core" path="system/core" />
   <remove-project name="platform/system/libfmq" />
-  <project name="LineageOS-Revived/android_system_libfmq" path="system/libfmq" />
+  <project name="lin18-microG/android_system_libfmq" path="system/libfmq" />
   <remove-project name="LineageOS/android_system_sepolicy" />
   <project name="LineageOS-Revived/android_system_sepolicy" path="system/sepolicy" />
   <remove-project name="LineageOS/android_system_timezone" />
@@ -91,6 +98,11 @@
   <remove-project name="LineageOS/android_system_vold" />
   <project name="LineageOS-Revived/android_system_vold" path="system/vold" />
 
+  <remove-project name="LineageOS/android_tools_metalava" />
+  <project name="crdroidandroid/android_tools_metalava" path="tools/metalava" revision="11.0" />
+
+  <remove-project name="LineageOS/android_vendor_qcom_opensource_packages_apps_Bluetooth" />
+  <project name="lin18-microG/android_vendor_qcom_opensource_packages_apps_Bluetooth" path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" />
   <remove-project name="LineageOS/android_vendor_qcom_opensource_system_bt" />
   <project name="lin18-microG/android_vendor_qcom_opensource_system_bt" path="vendor/qcom/opensource/commonsys/system/bt" />
 
