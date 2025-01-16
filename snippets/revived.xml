@@ -31,6 +31,8 @@
   <project name="crdroidandroid/android_external_cpu_features" path="external/cpu_features" revision="11.0" />
   <remove-project name="LineageOS/android_external_expat" />
   <project name="lin18-microG/android_external_expat" path="external/expat" />
+  <remove-project name="platform/external/giflib" />
+  <project name="lin18-microG/android_external_giflib" path="external/giflib" />
   <remove-project name="LineageOS/android_external_icu" />
   <project name="LineageOS-Revived/android_external_icu" path="external/icu" />
   <remove-project name="platform/external/skia" />
@@ -82,6 +84,8 @@
 
   <remove-project name="LineageOS/android_packages_services_Telecomm" />
   <project name="lin18-microG/android_packages_services_Telecomm" path="packages/services/Telecomm" />
+  <remove-project name="LineageOS/android_packages_services_Telephony" />
+  <project name="lin18-microG/android_packages_services_Telephony" path="packages/services/Telephony" />
 
   <remove-project name="LineageOS/android_system_bt" />
   <project name="lin18-microG/android_system_bt" path="system/bt" />
