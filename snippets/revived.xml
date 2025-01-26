@@ -47,7 +47,8 @@
   <project name="lin18-microG/android_frameworks_av" path="frameworks/av" />
   <remove-project name="LineageOS/android_frameworks_base" />
   <project name="LineageOS-Revived/android_frameworks_base" path="frameworks/base" />
-
+  <remove-project name="LineageOS/android_frameworks_native" />
+  <project name="lin18-microg/android_frameworks_native" path="frameworks/native" />
   <remove-project name="LineageOS/android_frameworks_opt_net_wifi" />
   <project name="lin18-microG/android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" revision="lin-18.1-microG" />
 
@@ -86,6 +87,9 @@
   <project name="lin18-microG/android_packages_services_Telecomm" path="packages/services/Telecomm" />
   <remove-project name="LineageOS/android_packages_services_Telephony" />
   <project name="lin18-microG/android_packages_services_Telephony" path="packages/services/Telephony" />
+
+  <remove-project name="platform/prebuilts/abi-dumps/vndk" />
+  <project name="lin18-microG/android_prebuilts_abi-dumps_vndk" path="prebuilts/abi-dumps/vndk" />
 
   <remove-project name="LineageOS/android_system_bt" />
   <project name="lin18-microG/android_system_bt" path="system/bt" />
